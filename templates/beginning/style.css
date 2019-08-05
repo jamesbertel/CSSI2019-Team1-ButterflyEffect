@@ -1,5 +1,8 @@
-.container {
+body {
   background-image: url("https://hdqwalls.com/download/dark-night-forest-view-5k-io-1920x1080.jpg");
+}
+
+.container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
@@ -7,11 +10,8 @@
 
 .footer {
   background-color: white;
-  grid-column: span 12;
-  grid-row: span 3;
-}
-
-.image {
-  grid-column: span 1/12;
-  grid-row: span 1/12;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 9;
+  grid-row-end: 12;
 }
