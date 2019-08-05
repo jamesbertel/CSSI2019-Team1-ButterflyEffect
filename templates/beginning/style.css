@@ -1,19 +1,67 @@
 body {
   background-image: url("https://hdqwalls.com/download/dark-night-forest-view-5k-io-1920x1080.jpg");
+  background-repeat: no-repeat;
+  align-items: center;
+ justify-content: center;
+ align-content: center;
+
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+#title {
+  font-size: 300px;
+  text-align: center;
+
 }
 
-.footer {
-  background-color: white;
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 9;
-  grid-row-end: 12;
+#Footer {
+  font-size: 20px;
+  background-color: gray;
+  margin-top: 500px;
+  margin-bottom:
+
+}
+
+.item {
+  font-size: 32px;
+  color: white;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  white-space: nowrap;
+  padding: 20px 10px;
+  min-width: 145px;
+  justify-content: flex-end;
+}
+
+#line1 {
+  display: flex;
+ align-items: center;
+justify-content: center;
+align-content: center;
+
+ }
+
+
+#row1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+#row2 {
+display: flex;
+align-items: center;
+
+}
+
+#row3 {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+
+
 }
 
 .item {
