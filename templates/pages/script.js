@@ -6,7 +6,8 @@ choice1.innerHTML = "Venture out";
 choice2.innerHTML = "Search plane";
 
 
-var story = ["you crash landed", "you find an empty backpack and flashlight",
+var story = ["Your eyes shoot open to the distinct cold, wet feeling hitting your cheek. Cold sweat drips down your furrowed brow. You tilt your head ever so slightly to the left to see piercing brown eyes looking back at you. Its Duke. Thoughts begin to rush into your head. Where are you? Memories of you childhood and adolescence shoot back into your head, but your thoughts come to a halt, when you feel the stinging sensation against you leg. You look down and around at your surroundings. You see metal tiles torn and strewn about the cabin of your now destroyed “ship”. Your leg is only slightly injured from the impact. You know you’ll recover just fine with some gauze and tape. But for now you have to figure out where to go next. Duke kneels down at your side. Where to next?", 
+"you find an empty backpack and flashlight",
  "your dog picks up a scent", "your dog follows you and you find firewood and start a fire",
  "hear roar", "hear it get closer", "dead to beast", "dog takes hiding spot stuck out in open",
  "the beast leaves it is blnd", "you are thirsty and search for water", "find river and cabin you win",
