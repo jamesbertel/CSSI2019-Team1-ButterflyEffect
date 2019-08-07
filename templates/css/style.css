@@ -130,6 +130,8 @@ button {
   border-radius: 12px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  /* font-family: "Wingdings", "Times New Roman", Times, serif; */
+  font-family: Impact, "Charcoal", sans-serif;
 }
 
 button:hover {
