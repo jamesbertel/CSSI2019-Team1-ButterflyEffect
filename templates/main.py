@@ -12,7 +12,7 @@ the_jinja_env = jinja2.Environment(
 
 class EnterInfoHandler(webapp2.RequestHandler):
     def get(self):
-        start_template = the_jinja_env.get_template("login.html")
+        start_template = the_jinja_env.get_template("/pages/login.html")
         self.response.write(start_template.render())
 
     def post(self):
@@ -21,7 +21,7 @@ class EnterInfoHandler(webapp2.RequestHandler):
         username.put()
 
         variable_dict = {'fav_food_for_view': username}
-        end_template = the_jinja_env.get_template("story.html")
+        end_template = the_jinja_env.get_template("/pages/story.html")
         self.response.write(end_template.render(variable_dict))
 
 
