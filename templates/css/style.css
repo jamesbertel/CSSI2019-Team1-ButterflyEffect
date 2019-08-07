@@ -19,6 +19,7 @@ p {
   text-decoration: none;
   color: black;
   padding: 20px 20px;
+  text-indent: 50px;
   font-family: "Arial Black", Gadget, sans-serif;
   box-shadow: inset rgba(25, 53, 64, 0.7) -10px -10px 25px,
               inset rgba(25, 53, 64, 0.7) 10px 10px 25px;
@@ -132,6 +133,6 @@ button {
 }
 
 button:hover {
-  background-color: #A0220B; /* Green */
+  background-color: #3b8f50; /* Green */
   color: white;
 }
