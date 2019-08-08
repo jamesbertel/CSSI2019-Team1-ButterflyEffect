@@ -22,8 +22,8 @@
    const choice1 = document.querySelector('#choice1')
    const choice2 = document.querySelector('#choice2')
 
-   choice1.innerHTML = "Venture out";
-   choice2.innerHTML = "Search plane";
+   choice1.innerHTML = "Venture Out";
+   choice2.innerHTML = "Search Plane";
 
 
    var story = ["Your eyes shoot open to the distinct cold, wet feeling hitting your cheek. Cold sweat drips down your furrowed brow. You tilt your head ever so slightly to the left to see piercing brown eyes looking back at you. <br><br> Its Duke. <br><br> Thoughts begin to rush into your head. Where are you? Memories of you childhood and adolescence shoot back into your head, but your thoughts come to a halt, when you feel the stinging sensation against you leg. <br><br> You look down and around at your surroundings. You see metal tiles torn and strewn about the cabin of your now destroyed aircraft. Your leg is slightly injured from the impact. You know you’ll recover just fine with some tape and gauze. But for now you have to figure out where to go next. <br> Duke kneels down at your side. <br><br> Where to next?",
@@ -43,27 +43,26 @@
    "You must be closer to civilization than you thought! You start to smile at the thought of refuge, how lucky you are to have crashed so close to a villager or at least another person. You wonder if they have any food to spare, or medical supplies on them. Regardless you’ll always have time after you get out of the woodlands to check on your injuries. You shout in the direction of the footsteps. You hear the familiar crunch turn to your direction. Its soft patters spring into unruly thuds. Your heart sinks, the noise starting to ring in your ears. Your impulse commands you to run, but your injuries restrain your abilities. The horror hasn't fully set in when you feel the heat of its breath graze the nape of your neck.",
    "Dukes the only friend you have out here, and dogs have an unwavering sense of smell, maybe he smelt out something useful, or even tasty for that matter. Your stomach growls at the thought. You chase him down and trail behind him carefully. His ears bounce up and down attentively as he sniffs each shrub. You're tempted to pick some of the delicate blue colored berries off its branches but decide against it. Trusting in duke proves to be valuable, as he leads you to a freshly killed deer. You perk at the idea of food making your way closer to the corpse. The hairs on your arms stand tall. Your perspective widens as you notice the deer's mutilated body. Blood oozes from its hide, its lower legs a mangled fractured mess. five long cuts have been sliced into its body, freshly strained tissue spilling out from each slit. You choke at the sight of it.",
    "Unfortunately, food is food. Its only natural as is the cycle of life. You convince yourself your only finishing whatever that beast started. You lean over the deers disfigured body and attempted to drain it. Wouldn’t want any animals tracking your scent. As you prepare to mount the stag over your shoulders, Duke starts to bark in multiple directions, his tail suddenly tucked between his legs, shuddering and whining with each bark. It’s sudden, swift... You feel the air from its frantic raging plunge. Duke’s jaw unwillingly divides, his teeth ruptured from its gums. His mangled coffee-colored coat hacked away from his body. Its claws plunged clean through his soft tendons. His eyes now lifeless, empty orbs It throws its long pale arms down, its gaping mouth a spiral of craggy teeth. Duke's carcass pitifully glides off its pointed claws. You stare at his contorted body vacantly. While its chilling white eyes stare at you. ",
-   "wake up to strange sounds",
-   "wake up in the morning"
+   "Your hurt, weak and aching all over. You decide its best you wait out until morning when your body will feel well-rested and ready to traverse your surroundings. It’s only a few hours later when you awake in the middle of the night to a loud crackling noise only a little ways away from your aircraft. Your mind runs down different scenarios of what it might be. Duke shoots his head up. He lets out a small whine sticking his snout just slightly out the aircraft.",
+   "Its far too late. Plus you’re nowhere near your full health to be traversing in the night. It’s better if you and Duke stay inside at least until sunrise, where you’ll be able to navigate easier"
    ];
 
    stry.innerHTML = story[0];
 
    choice1.addEventListener('click', (event) => {
-     console.log("clicked 1")
      if (stry.innerHTML == story[0]){
        stry.innerHTML = story[13];
        choice1.innerHTML = "Approach";
-       choice2.innerHTML = "search for supplies";
+       choice2.innerHTML = "Ignore and Search for Supplies";
      } else if (stry.innerHTML == story[13]) {
        stry.innerHTML = story[14];
      } else if (stry.innerHTML == story[1]) {
        stry.innerHTML = story[2];
        choice1.innerHTML = "Follow Duke’s lead";
-       choice2.innerHTML = "Find a way to start a fire";
+       choice2.innerHTML = "Find a Way to Start a Fire";
      } else if (stry.innerHTML == story[2]){
        stry.innerHTML = story[15];
-       choice1.innerHTML = "Take deer back to cook";
+       choice1.innerHTML = "Take Deer Back to Cook";
        choice2.innerHTML = "Ignore";
      } else if (stry.innerHTML == story[15]){
        stry.innerHTML = story[16];
@@ -87,15 +86,15 @@
        choice2.innerHTML = "Hide";
      } else if (stry.innerHTML == story[8]){
        stry.innerHTML = story[9];
-       choice1.innerHTML = "Rushing water";
-       choice2.innerHTML = "Splashing water";
+       choice1.innerHTML = "Rushing Water";
+       choice2.innerHTML = "Splashing Water";
      } else if (stry.innerHTML == story[17]){
        stry.innerHTML = story[2];
        choice1.innerHTML = "Follow Duke’s lead";
-       choice2.innerHTML = "Find a way to start a fire";
+       choice2.innerHTML = "Find a Way to Start a Fire";
      } else if (stry.innerHTML == story[18]){
        stry.innerHTML = story[15];
-       choice1.innerHTML = "take deer back to cook";
+       choice1.innerHTML = "Take Deer Back to Cook";
        choice2.innerHTML = "Ignore"
      }
    });
@@ -105,31 +104,31 @@
      if (stry.innerHTML == story[13]){
        stry.innerHTML = story[1];
        choice1.innerHTML = "Explore";
-       choice2.innerHTML = "wait until morning"
+       choice2.innerHTML = "Wait Until Morning"
      } else if (stry.innerHTML == story[0]){
        stry.innerHTML = story[1];
        choice1.innerHTML = "Explore";
-       choice2.innerHTML = "wait until morning"
+       choice2.innerHTML = "Wait Until Morning"
      } else if (stry.innerHTML == story[2]){
        stry.innerHTML = story[3];
-       choice1.innerHTML = "investigate";
+       choice1.innerHTML = "Investigate";
        choice2.innerHTML = "Ignore";
      } else if (stry.innerHTML == story[2]){
        stry.innerHTML = story[3];
-       choice1.innerHTML = "investigate";
+       choice1.innerHTML = "Investigate";
        choice2.innerHTML = "Ignore";
      } else if (stry.innerHTML == story[15]){
        stry.innerHTML = story[3];
-       choice1.innerHTML = "investigate";
+       choice1.innerHTML = "Investigate";
        choice2.innerHTML = "Ignore";
      } else if (stry.innerHTML == story[3]){
        stry.innerHTML = story[9];
-       choice1.innerHTML = "Rushing water";
-       choice2.innerHTML = "Splashing water";
+       choice1.innerHTML = "Rushing Water";
+       choice2.innerHTML = "Splashing Water";
      } else if (stry.innerHTML == story[9]){
        stry.innerHTML = story[11];
        choice1.innerHTML = "Drink";
-       choice2.innerHTML = "Go to rushing water";
+       choice2.innerHTML = "Go to Rushing Water";
      } else if (stry.innerHTML == story[11]){
        stry.innerHTML = story[10];
      }  else if (stry.innerHTML == story[4]){
@@ -138,25 +137,25 @@
        choice2.innerHTML = "Stay very still";
      } else if (stry.innerHTML == story[7]){
        stry.innerHTML = story[8];
-       choice1.innerHTML = "Find water";
+       choice1.innerHTML = "Find Water";
        choice2.innerHTML = "Find Food";
      } else if (stry.innerHTML == story[8]){
        stry.innerHTML = story[10];
      } else if (stry.innerHTML == story[5]){
        stry.innerHTML = story[8];
-       choice1.innerHTML = "find water";
-       choice2.innerHTML = "Find food";
+       choice1.innerHTML = "Find Water";
+       choice2.innerHTML = "Find Food";
      } else if (stry.innerHTML == story[1]){
        stry.innerHTML = story[17];
-       choice1.innerHTML = "follow dog";
-       choice2.innerHTML = "hold dog back";
+       choice1.innerHTML = "Follow Dog";
+       choice2.innerHTML = "Hold Dog Back";
      } else if (stry.innerHTML == story[17]){
        stry.innerHTML = story[18];
-       choice1.innerHTML = "go find food";
-       choice2.innerHTML = "go find firewood";
+       choice1.innerHTML = "Go Find Food";
+       choice2.innerHTML = "Go Find Firewood";
      } else if (stry.innerHTML == story[18]){
        stry.innerHTML = story[3];
-       choice1.innerHTML = "investigate";
+       choice1.innerHTML = "Investigate";
        choice2.innerHTML = "Ignore";
      }
    });
