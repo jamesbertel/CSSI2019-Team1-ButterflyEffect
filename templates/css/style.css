@@ -48,14 +48,6 @@ p {
   margin-left: 20%;
 }
 
-/* #Footer {
-  font-size: 20px;
-  background-color: gray;
-  margin-top: 450px;
-  flex-grow: 2;
-  height: 20px;
-} */
-
 #inputbox {
   padding:10px; border:2px solid #ccc;
   -webkit-border-radius: 5px;
