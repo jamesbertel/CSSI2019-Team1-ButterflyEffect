@@ -8,7 +8,8 @@ body {
 
 /*login.html below*/
 
-.item, #title {
+
+#title {
 
   display: flex;
   flex-direction: column;
@@ -25,10 +26,7 @@ body {
   min-width: 145px;
   justify-content: flex-end;
 
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 500px;
+
 }
 
 p {
@@ -47,7 +45,7 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 500px;
+  margin-left: 20%;
 }
 
 /* #Footer {
@@ -58,6 +56,31 @@ p {
   height: 20px;
 } */
 
+#inputbox {
+  padding:10px; border:2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.playbutn {
+  background-color: #193540;
+  color: white; /* Green */
+  border: none;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.playbutn:hover {
+  background-color: #3b8f50; /* Green */
+  color: white;
+}
+
 .cc{
   font-size: 50px;
   color: white;
@@ -67,7 +90,7 @@ p {
   padding: 20px 10px;
   min-width: 145px;
   justify-content: flex-end;
-  margin-right: 350px;
+  margin-right: 1%;
 }/*end login.html*/
 
 
@@ -83,7 +106,9 @@ p {
   width: 50%;
 }
 
-button {
+#home {
+  background-color: white;
+  color: black; /* Green */
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -95,17 +120,33 @@ button {
   transition-duration: 0.4s;
 }
 
-button:hover {
+#home:hover {
   background-color: #3b8f50; /* Green */
   color: white;
 }
 
-#home {
-  background-color: white;
-  color: #193540;
+.butn {
+  background-color: #193540;
+  color: white; /* Green */
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
-#choice1, #choice2 {
-  background-color: #193540; /* Green */
+.butn:hover {
+  background-color: #3b8f50; /* Green */
   color: white;
 }
+
+
+
+/* #home {
+  background-color: white;
+  color: #193540;
+} */
